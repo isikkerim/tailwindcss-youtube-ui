@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar-icon {
+    @apply w-6 h-6;
+  }
+  
+  .video-card {
+    @apply bg-youtube-light rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-youtube-red text-white px-4 py-2 rounded-full hover:bg-red-700 transition-colors duration-300;
+  }
+} 
